@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shanshan Lao</title>
+  <link rel="icon" type="image/png" href="images/favicon.png?v=avatar">
+  <link rel="stylesheet" href="assets/css/home.css?v=preview8">
+  <style>
+    body { margin: 0; background: #fff; color: #222; }
+    .masthead { position: sticky; top: 0; z-index: 20; background: #fff; border-bottom: 1px solid #eee; }
+    html, body { overflow-x: hidden; max-width: 100%; }
+    .masthead nav { max-width: 900px; margin: 0 auto; display: flex; gap: 18px; align-items: center; padding: 12px 16px; flex-wrap: wrap; }
+    .masthead a { color: #333; font-weight: 600; font-size: 14px; }
+    .masthead .brand { color: #ca6f6f; font-size: 18px; margin-right: 8px; }
+    #main { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 20px; padding: 20px 16px 56px; width: 100%; }
+    .sidebar { position: sticky; top: 64px; align-self: start; min-width: 0; }
+    .author__avatar img { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; display: block; }
+    .page__content { min-width: 0; max-width: 100%; overflow-wrap: break-word; }
+    .author__name { margin: 12px 0 4px; font-size: 20px; }
+    .author__bio { color: #666; margin: 0 0 10px; }
+    .author__urls { list-style: none; padding: 0; margin: 0; font-size: 14px; color: #555; }
+    .author__urls li { margin: 6px 0; }
+    .page__content h2 { border-bottom: 1px solid #eee; padding-bottom: 6px; margin-top: 28px; }
+    #employment, #education { scroll-margin-top: 80px; }
+    .project-stack {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+        gap: 10px !important;
+        max-width: 100% !important;
+    }
+    a.project-tile {
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
+    .project-tile-media {
+        height: 96px !important;
+        max-height: 96px !important;
+        flex: 0 0 96px !important;
+        overflow: hidden !important;
+    }
+    .project-tile-media img,
+    .project-tile-media video {
+        width: 100% !important;
+        height: 96px !important;
+        max-width: 100% !important;
+        max-height: 96px !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <nav>
+      <a class="brand" href="./">Shanshan Lao</a>
+      <a href="#news">News</a>
+      <a href="#employment">Employment</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Project</a>
+      <a href="#publications">Pub</a>
+    </nav>
+  </header>
+  <div id="main">
+    <aside class="sidebar">
+      <div class="author__avatar"><img src="images/avatar.jpg" alt="Shanshan Lao"></div>
+      <h3 class="author__name">Shanshan Lao</h3>
+      <p class="author__bio">Researcher at ByteDance Seed.</p>
+      <ul class="author__urls">
+        <li>Beijing, China</li>
+        <li>ByteDance Seed</li>
+        <li><a href="mailto:cathylaoss@gmail.com">Email</a></li>
+        <li>WeChat: shan_99226</li>
+        <li><a href="https://scholar.google.com/citations?user=gIZam1EAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+      </ul>
+    </aside>
+    <article class="page__content">
+<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
+
+<p>I am a researcher at <a href="https://seed.bytedance.com/">ByteDance Seed</a>, working on <strong>video generation</strong> and <strong>multimodal foundation models</strong>. On <a href="https://seed.bytedance.com/en/seedance1_5_pro">Seedance 1.5 Pro</a>, <a href="https://seed.bytedance.com/en/seedance2_0">Seedance 2.0</a>, and <a href="https://seed.bytedance.com/en/seedance2_5">Seedance 2.5</a>, I mainly work on <strong>post-training</strong>, with a focus on <strong>reinforcement learning algorithms</strong> for video generation models.</p>
+<p>I previously worked in ByteDance's Intelligent Creation team, and interned at SenseTime Research on efficient detection and diffusion models.</p>
+<p>I received my M.S. in Artificial Intelligence from <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a> and my B.E. in Automation from <a href="https://ev.buaa.edu.cn/">Beihang University</a>.</p>
+<p>Feel free to reach out if you are interested in collaboration.</p>
+<h2 id="news">News</h2>
+<div class="news-box">
+  <ul class="news-list">
+<li><span class="news-date"><em>2026.07</em></span> Seedance 2.5 is released.</li>
+<li><span class="news-date"><em>2026.07</em></span> LibraGen is accepted to ECCV 2026.</li>
+<li><span class="news-date"><em>2026.04</em></span> Seedance 2.0 technical report is on arXiv.</li>
+<li><span class="news-date"><em>2026.03</em></span> LibraGen is released: subject-driven video generation as a balance game.</li>
+<li><span class="news-date"><em>2026.01</em></span> Joined the ByteDance Seed team as an algorithm researcher.</li>
+<li><span class="news-date"><em>2025.12</em></span> Seedance 1.5 Pro and DreaMontage are released.</li>
+<li><span class="news-date"><em>2025.06</em></span> AR-Diffusion is accepted to CVPR 2025.</li>
+<li><span class="news-date"><em>2024.07</em></span> Joined ByteDance Intelligent Creation as an algorithm researcher.</li>
+<li><span class="news-date"><em>2023.10</em></span> Two first-author papers (MKD and UniKD) are accepted to ICCV 2023.</li>
+<li><span class="news-date"><em>2022.06</em></span> Won 1st place in the NTIRE 2022 Perceptual IQA Challenge (FR track).</li>
+<li><span class="news-date"><em>2021.09</em></span> Started my M.S. in AI at Tsinghua University.</li>
+  </ul>
+</div>
+
+<h2 id="employment">Employment</h2>
+<div class="experience-container">
+
+  <div class="experience-card">
+      <img src="images/seed.png?v=mark" alt="ByteDance Seed logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>ByteDance Seed</strong><br>
+          <em>2026.01 - Present</em> · Algorithm Researcher
+          <span class="experience-desc">Post-training for Seedance 1.5 Pro, 2.0, and 2.5, with a focus on RL algorithms for video generation models.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/bytedance.png?v=mark" alt="ByteDance logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>ByteDance — Intelligent Creation</strong><br>
+          <em>2024.07 - 2025.12</em> · Algorithm Researcher
+          <span class="experience-desc">Multimodal video generation, including AR-Diffusion, DreaMontage, and Seedance 1.5 Pro.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/sensetime.png" alt="SenseTime logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>SenseTime Research</strong><br>
+          <em>2022.06 - 2023.12</em> · Algorithm Intern
+          <span class="experience-desc">Lightweight detection and diffusion models, with projects and papers on pruning, knowledge distillation, and self-supervised learning.</span>
+      </div>
+  </div>
+</div>
+
+<h2 id="education">Education</h2>
+<div class="experience-container">
+
+  <div class="experience-card">
+      <img src="images/tsinghua.png" alt="Tsinghua University logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Tsinghua University</strong><br>
+          <em>2021.09 - 2024.06</em> · M.S. in Artificial Intelligence<br>
+          Advisor: Prof. Yujiu Yang
+          <span class="experience-desc">Intelligent Computing Lab. Research on knowledge distillation, self-supervised learning, and multimodal pretraining.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/beihang.png" alt="Beihang University logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Beihang University</strong><br>
+          <em>2017.09 - 2021.06</em> · B.E. in Automation
+          <span class="experience-desc">Undergraduate research on efficient 3D reconstruction and network pruning.</span>
+      </div>
+  </div>
+</div>
+
+<h2 id="projects">Projects</h2>
+<div class="project-stack" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;max-width:100%;">
+  <a class="project-tile" href="https://seed.bytedance.com/en/seedance2_5" target="_blank" rel="noopener">
+    <div class="project-tile-media" style="height:96px;max-height:96px;overflow:hidden;">
+      <img src="images/projects/seedance25.jpg" alt="Seedance 2.5" style="width:100%;height:96px;max-width:100%;object-fit:cover;display:block;">
+    </div>
+    <div class="project-tile-body">
+      <h3 class="project-tile-title">Seedance 2.5</h3>
+      <p class="project-tile-desc">A next-generation audio-video joint generation model built for 30-second storytelling, precise reference control, and powerful editing.</p>
+      <span class="project-tile-link">View project ↗</span>
+    </div>
+  </a>
+
+  <a class="project-tile" href="https://seed.bytedance.com/en/seedance2_0" target="_blank" rel="noopener">
+    <div class="project-tile-media" style="height:96px;max-height:96px;overflow:hidden;">
+      <img src="images/projects/seedance20.jpg" alt="Seedance 2.0" style="width:100%;height:96px;max-width:100%;object-fit:cover;display:block;">
+    </div>
+    <div class="project-tile-body">
+      <h3 class="project-tile-title">Seedance 2.0</h3>
+      <p class="project-tile-desc">A unified multimodal audio-video generation model that takes text, image, audio, and video as inputs, with comprehensive reference and editing controls.</p>
+      <span class="project-tile-link">View project ↗</span>
+    </div>
+  </a>
+
+  <a class="project-tile" href="https://seed.bytedance.com/en/seedance1_5_pro" target="_blank" rel="noopener">
+    <div class="project-tile-media" style="height:96px;max-height:96px;overflow:hidden;">
+      <img src="images/projects/seedance15.jpg" alt="Seedance 1.5 Pro" style="width:100%;height:96px;max-width:100%;object-fit:cover;display:block;">
+    </div>
+    <div class="project-tile-body">
+      <h3 class="project-tile-title">Seedance 1.5 Pro</h3>
+      <p class="project-tile-desc">A native audio-visual joint generation foundation model designed to follow complex instructions with aligned video and audio.</p>
+      <span class="project-tile-link">View project ↗</span>
+    </div>
+  </a>
+
+  <a class="project-tile" href="https://github.com/Phantom-video/LibraGen" target="_blank" rel="noopener">
+    <div class="project-tile-media" style="height:96px;max-height:96px;overflow:hidden;">
+      <img src="images/projects/libragen.jpg" alt="LibraGen" style="width:100%;height:96px;max-width:100%;object-fit:cover;display:block;">
+    </div>
+    <div class="project-tile-body">
+      <h3 class="project-tile-title">LibraGen</h3>
+      <p class="project-tile-desc">Subject-driven video generation that balances foundation-model priors with identity control through quality-focused data and preference optimization.</p>
+      <span class="project-tile-link">View project ↗</span>
+    </div>
+  </a>
+
+  <a class="project-tile" href="https://dreamontage.github.io/DreaMontage/" target="_blank" rel="noopener">
+    <div class="project-tile-media" style="height:96px;max-height:96px;overflow:hidden;">
+      <img src="images/projects/dreamontage.jpg" alt="DreaMontage" style="width:100%;height:96px;max-width:100%;object-fit:cover;display:block;">
+    </div>
+    <div class="project-tile-body">
+      <h3 class="project-tile-title">DreaMontage</h3>
+      <p class="project-tile-desc">Arbitrary frame-guided one-shot video generation: insert images or clips at specified timestamps and generate seamless montage-style videos.</p>
+      <span class="project-tile-link">View project ↗</span>
+    </div>
+  </a>
+</div>
+
+<h2 id="publications">Publications</h2>
+<p><button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
+<button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button></p>
+<p>(* equal contribution · &dagger; corresponding author)</p>
+<p>A full list is also available on my <a href="https://scholar.google.com/citations?user=gIZam1EAAAAJ" target="_blank">Google Scholar</a>.</p>
+<div id="core-publications" class="publication-view" data-publication-view="core">
+<div class="publication-card" data-category="all">
+  <a class="pub-card-link" href="https://arxiv.org/abs/2604.14148" target="_blank" rel="noopener" aria-label="Seedance 2.0: Advancing Video Generation for World Complexity"></a>
+  
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pubs/seedance20-01.png" alt="Seedance 2.0" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Seedance 2.0: Advancing Video Generation for World Complexity</strong><br>
+      <i style="font-size: 13px;">
+        Team Seedance (including <strong>Shanshan Lao</strong>).
+      </i><br>
+      A unified multimodal audio-video generation model that takes text, image, audio, and video as inputs, with comprehensive reference and editing controls.
+      <br>
+      <b><i style="color:#83a1c7;">arXiv 2026 &nbsp;</i></b>
+      <a class="pub-keep" href="https://seed.bytedance.com/en/seedance2_0" target="_blank"><em>[project]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-category="all">
+  <a class="pub-card-link" href="https://arxiv.org/abs/2512.13507" target="_blank" rel="noopener" aria-label="Seedance 1.5 Pro: A Native Audio-Visual Joint Generation Foundation Model"></a>
+  
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pubs/seedance15-01.png" alt="Seedance 1.5 Pro" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Seedance 1.5 Pro: A Native Audio-Visual Joint Generation Foundation Model</strong><br>
+      <i style="font-size: 13px;">
+        Team Seedance (including <strong>Shanshan Lao</strong>).
+      </i><br>
+      A native audio-visual joint generation foundation model designed to follow complex instructions with aligned video and audio.
+      <br>
+      <b><i style="color:#83a1c7;">arXiv 2025 &nbsp;</i></b>
+      <a class="pub-keep" href="https://seed.bytedance.com/en/seedance1_5_pro" target="_blank"><em>[project]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-category="all">
+  <a class="pub-card-link" href="https://arxiv.org/abs/2603.13506" target="_blank" rel="noopener" aria-label="LibraGen: Playing a Balance Game in Subject-Driven Video Generation"></a>
+  
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pubs/libragen-01.png" alt="LibraGen" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>LibraGen: Playing a Balance Game in Subject-Driven Video Generation</strong><br>
+      <i style="font-size: 13px;">
+        Jiahao Zhu*,
+        <strong>Shanshan Lao*</strong>,
+        Lijie Liu*,
+        Gen Li*,
+        Tianhao Qi*,
+        Wei Han*,
+        Bingchuan Li&dagger;, et al.
+      </i><br>
+      We formulate subject-to-video extension of video generation foundation models as a balance game between native model priors and new subject identity control, using quality-centric data and Tune-to-Balance post-training.
+      <br>
+      <b><i style="color:#83a1c7;">ECCV 2026 &nbsp;</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-category="all">
+  <a class="pub-card-link" href="https://openaccess.thecvf.com/content/ICCV2023/html/Lao_Masked_Autoencoders_Are_Stronger_Knowledge_Distillers_ICCV_2023_paper.html" target="_blank" rel="noopener" aria-label="Masked Autoencoders Are Stronger Knowledge Distillers"></a>
+  
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pubs/mkd-01.png" alt="Masked Knowledge Distillation" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Masked Autoencoders Are Stronger Knowledge Distillers</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Shanshan Lao</strong>,
+        Guanglu Song,
+        Boxiao Liu,
+        Yu Liu&dagger;,
+        Yujiu Yang&dagger;.
+      </i><br>
+      We propose Masked Knowledge Distillation (MKD), recovering masked student features by imitating the teacher, with masked convolution and an adaptive decoder for detector distillation.
+      <br>
+      <b><i style="color:#83a1c7;">ICCV 2023 &nbsp;</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-category="all">
+  <a class="pub-card-link" href="https://openaccess.thecvf.com/content/ICCV2023/html/Lao_UniKD_Universal_Knowledge_Distillation_for_Mimicking_Homogeneous_or_Heterogeneous_Object_ICCV_2023_paper.html" target="_blank" rel="noopener" aria-label="UniKD: Universal Knowledge Distillation for Mimicking Homogeneous or Heterogeneous Object Detectors"></a>
+  
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pubs/unikd-01.png" alt="UniKD" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>UniKD: Universal Knowledge Distillation for Mimicking Homogeneous or Heterogeneous Object Detectors</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Shanshan Lao</strong>,
+        Guanglu Song,
+        Boxiao Liu,
+        Yu Liu&dagger;,
+        Yujiu Yang&dagger;.
+      </i><br>
+      A plug-and-play detector distillation method that extracts universal embeddings via queries and a DETR decoder, enabling both homogeneous and heterogeneous teacher-student pairs, including DETR-style models.
+      <br>
+      <b><i style="color:#83a1c7;">ICCV 2023 &nbsp;</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-category="all">
+  <a class="pub-card-link" href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Lao_Attentions_Help_CNNs_See_Better_Attention-Based_Hybrid_Image_Quality_Assessment_CVPRW_2022_paper.html" target="_blank" rel="noopener" aria-label="Attentions Help CNNs See Better: Attention-based Hybrid Image Quality Assessment Network"></a>
+  
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pubs/ahiq-01.png" alt="AHIQ" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Attentions Help CNNs See Better: Attention-based Hybrid Image Quality Assessment Network</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Shanshan Lao</strong>,
+        Yuan Gong,
+        Shuwei Shi,
+        Sidi Yang,
+        Tianhe Wu,
+        Jiahao Wang,
+        Weihao Xia,
+        Yujiu Yang.
+      </i><br>
+      An attention-based hybrid IQA network that won first place in the NTIRE 2022 Perceptual IQA Challenge (FR track), with an oral presentation of the winning solution.
+      <br>
+      <b><i style="color:#83a1c7;">CVPRW 2022 Oral &nbsp;</i></b>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
+  <ul class="full-publication-list">
+    <li>
+  <a class="pub-card-link" href="https://arxiv.org/abs/2604.14148" target="_blank" rel="noopener" aria-label="Seedance 2.0: Advancing Video Generation for World Complexity"></a>
+  
+      <span class="pub-list-badge">arXiv 2026</span>
+      <span class="pub-list-title">Seedance 2.0: Advancing Video Generation for World Complexity</span><br>
+      <span class="pub-list-authors">Team Seedance (including <strong>Shanshan Lao</strong>).</span>
+      <span class="pub-list-links"><a class="pub-keep" href="https://seed.bytedance.com/en/seedance2_0" target="_blank">[project]</a></span>
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://arxiv.org/abs/2603.13506" target="_blank" rel="noopener" aria-label="LibraGen: Playing a Balance Game in Subject-Driven Video Generation"></a>
+  
+      <span class="pub-list-badge">ECCV 2026</span>
+      <span class="pub-list-title">LibraGen: Playing a Balance Game in Subject-Driven Video Generation</span><br>
+      <span class="pub-list-authors">Jiahao Zhu*, <strong>Shanshan Lao*</strong>, Lijie Liu*, Gen Li*, Tianhao Qi*, Wei Han*, Bingchuan Li&dagger;, et al.</span>
+      <span class="pub-list-note">Equal contribution.</span>
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://arxiv.org/abs/2512.13507" target="_blank" rel="noopener" aria-label="Seedance 1.5 Pro: A Native Audio-Visual Joint Generation Foundation Model"></a>
+  
+      <span class="pub-list-badge">arXiv 2025</span>
+      <span class="pub-list-title">Seedance 1.5 Pro: A Native Audio-Visual Joint Generation Foundation Model</span><br>
+      <span class="pub-list-authors">Team Seedance (including <strong>Shanshan Lao</strong>).</span>
+      <span class="pub-list-links"><a class="pub-keep" href="https://seed.bytedance.com/en/seedance1_5_pro" target="_blank">[project]</a></span>
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://arxiv.org/abs/2512.21252" target="_blank" rel="noopener" aria-label="DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation"></a>
+  
+      <span class="pub-list-badge">arXiv 2025</span>
+      <span class="pub-list-title">DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation</span><br>
+      <span class="pub-list-authors">Jiawei Liu, Junqiao Li, Jiangfan Deng, Gen Li, Siyu Zhou, Zetao Fang, <strong>Shanshan Lao</strong>, et al.</span>
+      <span class="pub-list-links"><a class="pub-keep" href="https://dreamontage.github.io/DreaMontage/" target="_blank">[project]</a></span>
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://arxiv.org/abs/2503.07418" target="_blank" rel="noopener" aria-label="AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion"></a>
+  
+      <span class="pub-list-badge">CVPR 2025</span>
+      <span class="pub-list-title">AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion</span><br>
+      <span class="pub-list-authors">Mingzhen Sun*, Weining Wang*, Gen Li, Jiawei Liu, Jiahui Sun, Wanquan Feng, <strong>Shanshan Lao</strong>, Siyu Zhou, Qian He, Jing Liu.</span>
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://aclanthology.org/2024.findings-naacl.2/" target="_blank" rel="noopener" aria-label="Weight-Inherited Distillation for Task-Agnostic BERT Compression"></a>
+  
+      <span class="pub-list-badge">NAACL 2024</span>
+      <span class="pub-list-title">Weight-Inherited Distillation for Task-Agnostic BERT Compression</span><br>
+      <span class="pub-list-authors">Taiqiang Wu, Cheng Hou, <strong>Shanshan Lao</strong>, Jiayi Li, Ngai Wong, Zhe Zhao, Yujiu Yang.</span>
+      <span class="pub-list-note">Findings.</span>
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://openaccess.thecvf.com/content/ICCV2023/html/Lao_Masked_Autoencoders_Are_Stronger_Knowledge_Distillers_ICCV_2023_paper.html" target="_blank" rel="noopener" aria-label="Masked Autoencoders Are Stronger Knowledge Distillers"></a>
+  
+      <span class="pub-list-badge">ICCV 2023</span>
+      <span class="pub-list-title">Masked Autoencoders Are Stronger Knowledge Distillers</span><br>
+      <span class="pub-list-authors"><strong>Shanshan Lao</strong>, Guanglu Song, Boxiao Liu, Yu Liu&dagger;, Yujiu Yang&dagger;.</span>
+      
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://openaccess.thecvf.com/content/ICCV2023/html/Lao_UniKD_Universal_Knowledge_Distillation_for_Mimicking_Homogeneous_or_Heterogeneous_Object_ICCV_2023_paper.html" target="_blank" rel="noopener" aria-label="UniKD: Universal Knowledge Distillation for Mimicking Homogeneous or Heterogeneous Object Detectors"></a>
+  
+      <span class="pub-list-badge">ICCV 2023</span>
+      <span class="pub-list-title">UniKD: Universal Knowledge Distillation for Mimicking Homogeneous or Heterogeneous Object Detectors</span><br>
+      <span class="pub-list-authors"><strong>Shanshan Lao</strong>, Guanglu Song, Boxiao Liu, Yu Liu&dagger;, Yujiu Yang&dagger;.</span>
+      
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Lao_Attentions_Help_CNNs_See_Better_Attention-Based_Hybrid_Image_Quality_Assessment_CVPRW_2022_paper.html" target="_blank" rel="noopener" aria-label="Attentions Help CNNs See Better: Attention-based Hybrid Image Quality Assessment Network"></a>
+  
+      <span class="pub-list-badge">CVPRW 2022</span>
+      <span class="pub-list-title">Attentions Help CNNs See Better: Attention-based Hybrid Image Quality Assessment Network</span><br>
+      <span class="pub-list-authors"><strong>Shanshan Lao</strong>, Yuan Gong, Shuwei Shi, Sidi Yang, Tianhe Wu, Jiahao Wang, Weihao Xia, Yujiu Yang.</span>
+      <span class="pub-list-note">Oral. NTIRE 2022 winner.</span>
+      
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://arxiv.org/abs/2204.08958" target="_blank" rel="noopener" aria-label="MANIQA: Multi-dimension Attention Network for No-Reference Image Quality Assessment"></a>
+  
+      <span class="pub-list-badge">CVPRW 2022</span>
+      <span class="pub-list-title">MANIQA: Multi-dimension Attention Network for No-Reference Image Quality Assessment</span><br>
+      <span class="pub-list-authors">Sidi Yang, Tianhe Wu, Shuwei Shi, <strong>Shanshan Lao</strong>, Yuan Gong, Mingdeng Cao, Jiahao Wang, Yujiu Yang.</span>
+      
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Gu_NTIRE_2022_Challenge_on_Perceptual_Image_Quality_Assessment_CVPRW_2022_paper.html" target="_blank" rel="noopener" aria-label="NTIRE 2022 Challenge on Perceptual Image Quality Assessment"></a>
+  
+      <span class="pub-list-badge">CVPRW 2022</span>
+      <span class="pub-list-title">NTIRE 2022 Challenge on Perceptual Image Quality Assessment</span><br>
+      <span class="pub-list-authors">Jinjin Gu, Haoming Cai, Chao Dong, Jimmy S. Ren, Radu Timofte, Yuan Gong, <strong>Shanshan Lao</strong>, Shuwei Shi, Jiahao Wang, et al.</span>
+      
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://arxiv.org/abs/2208.10139" target="_blank" rel="noopener" aria-label="Rethinking Knowledge Distillation via Cross-Entropy"></a>
+  
+      <span class="pub-list-badge">arXiv 2022</span>
+      <span class="pub-list-title">Rethinking Knowledge Distillation via Cross-Entropy</span><br>
+      <span class="pub-list-authors">Zhendong Yang, Zhe Li, Yuan Gong, Tianke Zhang, <strong>Shanshan Lao</strong>, Chun Yuan, Yu Li.</span>
+      
+    </li>
+    <li>
+  <a class="pub-card-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0924271620301721" target="_blank" rel="noopener" aria-label="Pruning Multi-View Stereo Net for Efficient 3D Reconstruction"></a>
+  
+      <span class="pub-list-badge">ISPRS 2020</span>
+      <span class="pub-list-title">Pruning Multi-View Stereo Net for Efficient 3D Reconstruction</span><br>
+      <span class="pub-list-authors">Xiang Xiang, Zhiyuan Wang, <strong>Shanshan Lao</strong>, Baochang Zhang.</span>
+      
+    </li>
+  </ul>
+</div>
+
+<script src="assets/js/show_publications.js"></script>
+<script src="assets/js/pub_media_rotator.js"></script>
+    </article>
+  </div>
+</body>
+</html>
